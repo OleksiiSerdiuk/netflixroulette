@@ -27,7 +27,7 @@ npm start
 The server will start at http://localhost:4000.
 You can find the Swagger documentation at http://localhost:4000/api-docs.
 
-### Install all dependencies
+### Install and start Frontend side 
 
 ```bash
 npm install
