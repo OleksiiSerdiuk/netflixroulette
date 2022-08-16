@@ -1,0 +1,22 @@
+{
+  "name": "netflixroulette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksiiSerdiuk/netflixroulette.git"
+  },
+  "author": "Oleksii Serdiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksiiSerdiuk/netflixroulette/issues"
+  },
+  "homepage": "https://github.com/OleksiiSerdiuk/netflixroulette#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
