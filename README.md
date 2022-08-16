@@ -1,10 +1,12 @@
 # netflix-roulette
 
 Simple App practice with React + React Router + Redux Toolkit.
+This app is an example of searching for movies and viewing their details. You can add your own movies or edit old movies.
 
 
 ## Get started ##
 
+### To write the front-end, I used a third-party backend.
 ### Run backend side
 
 At some point you will have to start integrating with the backend HTTP API.
