@@ -1,0 +1,25 @@
+.text-red {
+  color: var(--color-danger-2);
+}
+
+.font-weight-semi {
+  font-weight: 600 !important;
+}
+
+.title {
+  color: var(--color-dark);
+  text-transform: capitalize;
+  font-weight: 500;
+
+  &--large {
+    font-size: 16px;
+
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+.movies-sorter {
+  display: flex;
+  align-items: center;
+
+  @media all and (max-width: 991px) {
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(255 255 255 / 60%);
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  &__select {
+    .base-select__header {
+      background: transparent;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`movie card renders movie card snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="movie-card"
+    id="337167"
+  >
+    <div
+      class="movie-card__settings"
+    >
+      <div
+        aria-hidden="true"
+        class="movie-card__icon false"
+      >
+        <img
+          alt="Toggle"
+          src="test-file-stub"
+        />
+      </div>
+    </div>
+    <a
+      href="/movie/:337167"
+      type="button"
+    >
+      <div
+        class="movie-card__img-wrapper"
+      >
+        <img
+          alt="Fifty Shades Freed"
+          class="movie-card__img"
+          src="https://image.tmdb.org/t/p/w500/3kcEGnYBHDeqmdYf8ZRbKdfmlUy.jpg"
+        />
+      </div>
+    </a>
+    <div
+      class="movie-card__body"
+    >
+      <div
+        class="movie-card__header"
+      >
+        <h2
+          class="movie-card__title"
+        >
+          Fifty Shades Freed
+        </h2>
+        <span
+          class="movie-card__date"
+        >
+          2018
+        </span>
+      </div>
+      <p
+        class="movie-card__genres"
+      >
+        Drama, Romance
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

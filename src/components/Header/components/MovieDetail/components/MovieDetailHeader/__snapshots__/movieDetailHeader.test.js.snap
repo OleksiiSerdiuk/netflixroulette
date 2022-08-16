@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`movie detail header renders movie detail header snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="movie-detail-header"
+  >
+    <img
+      alt="Logo"
+      src="test-file-stub"
+    />
+    <button
+      class="btn btn-default btn--search-icon"
+      type="submit"
+    >
+      <img
+        alt="search"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

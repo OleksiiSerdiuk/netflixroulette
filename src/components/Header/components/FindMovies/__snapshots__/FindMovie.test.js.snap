@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search section renders find movie snapshot 1`] = `
+<DocumentFragment>
+  <form
+    action="#"
+    class="find-movie-form"
+  >
+    <label
+      class="base-input find-movie-form__input"
+    >
+      <input
+        class="base-input__field"
+        id="search"
+        name="search"
+        placeholder="What do you want to watch ?"
+        type="text"
+        value=""
+      />
+    </label>
+    <button
+      class="btn find-movie-form__btn"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</DocumentFragment>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textarea renders textarea snapshot 1`] = `
+<DocumentFragment>
+  <label
+    class="base-textarea"
+  >
+    <span
+      class="base-textarea__label"
+    >
+      Overview
+    </span>
+    <textarea
+      class="base-textarea__field"
+      control="textarea"
+      id="test"
+      name="overview"
+    />
+  </label>
+</DocumentFragment>
+`;

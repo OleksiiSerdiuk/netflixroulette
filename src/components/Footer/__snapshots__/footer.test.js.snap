@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders Footer snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="footer"
+  >
+    <img
+      alt="Logo"
+      src="test-file-stub"
+    />
+  </footer>
+</DocumentFragment>
+`;

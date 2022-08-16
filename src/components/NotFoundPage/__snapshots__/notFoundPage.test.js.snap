@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shows the not found page message for a wrong movie page 1`] = `
+<DocumentFragment>
+  <div
+    class="section-not-found-page"
+  >
+    <h1>
+      404 Not Found
+    </h1>
+    <a
+      class="home-link"
+      href="/"
+    >
+      Go to main page
+    </a>
+  </div>
+</DocumentFragment>
+`;

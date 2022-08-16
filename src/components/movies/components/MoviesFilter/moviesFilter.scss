@@ -1,0 +1,43 @@
+.movie-categories {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.3s;
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: capitalize;
+    background: none;
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+
+    &:hover,
+    &:focus {
+      opacity: 0.8;
+      color: var(--color-carnation);
+    }
+  }
+
+  &__item + &__item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 5px;
+
+    @media all and (min-width: 768px) {
+      margin-left: 15px;
+    }
+
+    @media all and (min-width: 992px) {
+      margin-left: 30px;
+    }
+  }
+
+  &__item.active {
+    opacity: 1;
+    color: var(--color-carnation);
+  }
+}

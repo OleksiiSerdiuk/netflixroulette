@@ -1,0 +1,38 @@
+.base-input {
+  text-align: left;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    color: var(--color-carnation);
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  &__required {
+    color: var(--color-pink);
+  }
+
+  &__field {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 1rem;
+    color: var(--color-white);
+    transition: all 0.3s;
+    background: rgba(50, 50, 50, 0.948044);
+    border: none;
+
+    &::placeholder {
+      font-size: 16px;
+      color: var(--color-emperor);
+    }
+
+    &:focus {
+      border: 1px solid var(--color-primary);
+      box-shadow: 0 0 0 0.2rem rgb(45 171 226 / 44%);
+    }
+  }
+}

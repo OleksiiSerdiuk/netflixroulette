@@ -1,0 +1,18 @@
+.section-movies {
+  background: var(--color-mine-shaft);
+  padding-bottom: 73px;
+  color: var(--color-white);
+  position: relative;
+  min-height: calc(100vh - 458px);
+
+  &__filter {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color-cod-gray);
+
+    @media all and (max-width: 991px) {
+      flex-direction: column-reverse;
+    }
+  }
+}

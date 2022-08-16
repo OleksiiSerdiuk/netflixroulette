@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+  color: var(--color-dark);
+  line-height: normal;
+}
+
+.base-link {
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--color-primary);
+
+  &:hover,
+  &:focus {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+}
+
+a {
+  transition: all 0.3s;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}
+
+.container-app {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    max-width: 702px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 1054px;
+  }
+
+  @media all and (max-width: 1024px) and (min-width: 768px) {
+    padding: 0 43px;
+  }
+}
+
+// clear IOS css
+input,
+textarea {
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.default-wrapper-content {
+  border: 1px solid var(--color-dodger-blue);
+  padding: 25px;
+}
+
+a {
+  color: var(--color-black);
+  transition: all 0.3s;
+
+  &:hover,
+  &:focus {
+    color: var(--color-black);
+    opacity: 0.8;
+  }
+}
+
+#root {
+  min-height: 100%;
+}
+
+.error {
+  margin-top: 5px;
+  font-size: 13px;
+  opacity: 0.8;
+}

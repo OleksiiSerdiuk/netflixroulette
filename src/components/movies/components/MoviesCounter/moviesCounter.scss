@@ -1,0 +1,15 @@
+.movies-counter {
+  display: flex;
+  padding: 25px 0;
+  font-size: 20px;
+  line-height: 24px;
+
+  &__count {
+    font-weight: 600;
+  }
+
+  &__text {
+    font-weight: 500;
+    margin-left: 10px;
+  }
+}
